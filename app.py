@@ -53,9 +53,9 @@ def main():
 
     # 最高気温が9.0より大きい駅名を教える
 
-    for ccc in weather_information:
-        if ccc["temperature"] > 9.0:
-            print(ccc["station"])
+    for sta_maxtem in weather_information:
+        if sta_maxtem["temperature"] > 9.0:
+            print(sta_maxtem["station"])
 
 
 if __name__ == "__main__":
